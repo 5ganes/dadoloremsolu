@@ -38,10 +38,11 @@
               	<img src="images/logo.png" height="100px" width="110px">
           	</div>
             <div class="tit">
-                <h6 style="line-height:26px; text-align:center">नेपाल सरकार</h6>
-                <h3 style="line-height:26px;font-size:18px;">कृषि विकास मन्त्रालय</h3>
-                <h4 style="font-size:18px">कृषि विभाग</h4>
-                <h4 style="line-height:24px; font-size: 19px;">जिल्ला कृषि विकास कार्यालय, सोलुखुम्बु</h4>
+                <h6 style="line-height:22px; font-size: 13px">नेपाल सरकार</h6>
+                <h4 style="line-height:22px;font-size:16px;">कृषि विकास मन्त्रालय</h4>
+                <h6 style="font-size:18px">कृषि विभाग</h6>
+                <h4 style="line-height:22px;font-size:15px">क्षेत्रीय कृषि निर्देशनालय</h4>
+                <h6 style="line-height:22px; font-size: 17px;">जिल्ला कृषि विकास कार्यालय, सोलुखुम्बु</h6>
                 
      		</div>
             <div class="flag">
@@ -53,7 +54,7 @@
 <div class="main-container">
   <div id="sub-headline">
     <div class="tagline_left" style="width: 60%">
-    	<p id="tagline2">Tel: +९७७-०६९-५२०६३०. | Mail: <a href="mailto:dadosolukhumbu@gmail.com">dadosolukhumbu@gmail.com</a></p>
+    	<p id="tagline2">Tel: ९७७-०३८-५२०१३०. | Mail: <a href="mailto:dadosolukhumbu@gmail.com">dadosolukhumbu@gmail.com</a></p>
   	</div>
     <div class="tagline_right">
       <form action="" method="post">

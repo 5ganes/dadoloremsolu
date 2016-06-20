@@ -24,7 +24,7 @@ body{}
 	float:left;
 }
 
-.header{width: 960px;margin: 0px auto; background:#009500; padding:12px 0;}
+.header{width: 960px;margin: 0px auto; background:#009500; padding:4px 0;}
 .logo{ float:left; width:30%}
 .tit{float:left; width:40%}
 .tit h3, .tit h4, .tit h6{color:white;}
