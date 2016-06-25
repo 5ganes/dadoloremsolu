@@ -54,7 +54,7 @@
 <div class="main-container">
   <div id="sub-headline">
     <div class="tagline_left" style="width: 60%">
-    	<p id="tagline2">Tel: ९७७-०३८-५२०१३०. | Mail: <a href="mailto:dadosolukhumbu@gmail.com">dadosolukhumbu@gmail.com</a></p>
+    	<p id="tagline2">Tel: ९७७-०३८-५२०१३०. | Mail: <a href="mailto:dadosolu@gmail.com">dadosolu@gmail.com</a></p>
   	</div>
     <div class="tagline_right">
       <form action="" method="post">
