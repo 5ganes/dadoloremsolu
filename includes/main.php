@@ -73,7 +73,6 @@
 			<?=$welGet['name'];?>
       	</p>
 		<?=$welGet['shortcontents'];?>
-        <br>
         <a href="<?=$welGet['urlname'];?>" class="read_more">Read More</a> 
     </div>
     
