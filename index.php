@@ -79,6 +79,19 @@
   </div>
 </div>
 
+<div class="main-container" style="height: 30px; padding-top: 5px;">
+  <div id="nav-container" style="height: 25px; padding-top: 5px; background:none;">
+    <?php
+      $hot=$conn->fetchArray($groups->getById(HOT_NEWS));
+    ?>
+    <div style="float: left;width: 10%;"><b><?=$hot['name'];?> : </b></div>
+    <div style="float: left;width: 88%; margin-right: 2%;text-transform: none;">
+      <marquee onmouseover="this.stop();" onmouseout="this.start();"><?=$hot['shortcontents'];?></marquee>
+    </div>
+    <div style="clear: both"></div>
+  </div>
+</div>
+
 <div class="main-container">
   
 	<div class="container1" style="padding-bottom:0">

@@ -31,6 +31,7 @@ define("CONTACT", 234);
 define("LINKS",366);
 define("MESSAGE", 274);
 define("PUBLICATIONS", 338);
+define("HOT_NEWS", 405);
 
 ///////////////GENERAL CLIENT SIDE CONSTANTS///////////////////
 

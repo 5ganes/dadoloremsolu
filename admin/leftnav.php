@@ -24,6 +24,7 @@
             <li><a href="cms.php?groupType=Other">Manage Other</a></li>
             <!-- <li><a href="bills.php">Manage Bills</a></li> -->
             <li><a href="subscription.php">Manage SMS Subscription</a></li>
+            <li><a href="cms.php?id=<?=HOT_NEWS;?>&parentId=0&groupType=Other">Hot News</a></li>
     	</ul>
   	</li>
   	

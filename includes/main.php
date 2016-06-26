@@ -68,11 +68,12 @@
         $wel=$groups->getById(WELCOME);
         $welGet=$conn->fetchArray($wel);
     ?>
-    <div class="welcome" style="float:none; text-align:justify; font-style;">
+    <div class="welcome" style="float:none; text-align:justify; line-height: 23px; font-style;">
         <p style="font-size: 19px; font-weight:bold; font-family:Artifika,Arial,Helvetica,sans-serif; line-height:25px;">
 			<?=$welGet['name'];?>
       	</p>
 		<?=$welGet['shortcontents'];?>
+        <br>
         <a href="<?=$welGet['urlname'];?>" class="read_more">Read More</a> 
     </div>
     
