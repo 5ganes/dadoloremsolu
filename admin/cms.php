@@ -33,6 +33,10 @@ if (isset($_GET['groupType']))
 <link href="../css/admin.css" rel="stylesheet" type="text/css">
 <script language="javascript" src="../js/cms.js"></script>
 <script language="javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript">
+	//var CKEDITOR_BASEPATH = '/ckeditor/';
+</script>
+<script type="text/javascript" src="ckeditor/ckeditor.js"></script>
 </head>
 <body>
 <table width="<?php echo ADMIN_PAGE_WIDTH; ?>" border="0" align="center" cellpadding="0"
@@ -206,22 +210,22 @@ if (isset($_GET['groupType']))
 																			}
 																			?>
 																			id="uploadFile" class="file">
-                                      <div id="fckEditor" class="groupBox"
-																				<?php
-																				if ($groupRow['linkType'] != "Contents Page")
-																				{
-																					echo "style=\"display:none;\"";
-																				}
-																				?>
-																				>
-                                        <?php
-																				if (isset($_GET['id']) && $groupRow['linkType'] == "Contents Page")
-																				{
-																					include("ajaxContentsPanel.php");
-																					//include("ajaxGalleryPanel.php");
-																				}                                
-																				?>
-                                      </div>
+                                    <div id="fckEditor" class="groupBox"
+										<?php
+										if ($groupRow['linkType'] != "Contents Page")
+										{
+											echo "style=\"display:none;\"";
+										}
+										?>
+										>
+										<?php
+										if (isset($_GET['id']) && $groupRow['linkType'] == "Contents Page")
+										{
+											include("ajaxContentsPanel.php");
+											//include("ajaxGalleryPanel.php");
+										}                                
+										?>
+                                    </div>
                                       <?php
 																			$galleryTitle = "";
 																			if ($groupRow['linkType'] == "Gallery")
